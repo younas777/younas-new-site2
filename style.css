@@ -1,0 +1,44 @@
+/* body */
+body{
+    margin: 0;
+    font-family: arial;
+    background: linear-gradient(to right,blue,purple);
+    color: white;
+    text-align: center;
+}
+
+/* image container */
+.container{
+    padding: 30px;
+}
+
+/* profile pic */
+.profile{
+    width: 200px;
+    border-radius: 50% ;
+    transition: 0.3s;
+}
+/* profile pic animation */
+.profile:hover{
+    transform: scale(1.1);
+}
+
+/* skills */
+.skills{
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* mobile responsive */
+
+@media (max-width:600px){
+    h1{
+        font-size: 24px;
+    }
+    .profile{
+        width: 120px;
+    }
+}
+
